@@ -1,3 +1,5 @@
+![go](https://github.com/user-attachments/assets/64cd57b2-4501-4eb6-80cb-68dac7e45832)
+
 <a href="https://github.com/solvercaptcha/solvecaptcha-python"><img src="https://github.com/user-attachments/assets/37e1d860-033b-4cf3-a158-468fc6b4debc" width="82" height="30"></a>
 <a href="https://github.com/solvercaptcha/solvecaptcha-javascript"><img src="https://github.com/user-attachments/assets/4d3b4541-34b2-4ed2-a687-d694ce67e5a6" width="36" height="30"></a>
 <a href="https://github.com/solvercaptcha/solvecaptcha-go"><img src="https://github.com/user-attachments/assets/5e37ab36-f32f-464b-9d33-a335e2e1b13e" width="63" height="30"></a>
