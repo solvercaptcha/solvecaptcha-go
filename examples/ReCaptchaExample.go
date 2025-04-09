@@ -11,7 +11,7 @@ func main() {
 
 	reCaptcha := apisolvecaptcha.ReCaptcha{
 		SiteKey: "6Le-wvkSVVABCPBMRTvw0Q4Muexq1bi0DJwx_mJ-",
-		Url:     "ttps://mysite.com/page/with/recaptcha",
+		Url:     "https://mysite.com/page/with/recaptcha",
 	}
 
 	req := reCaptcha.ToRequest()
