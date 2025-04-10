@@ -63,6 +63,7 @@ Need help integrating with your Go project? [Open an issue](https://github.com/s
     - [reCAPTCHA v2](#recaptcha-v2)
     - [reCAPTCHA v3](#recaptcha-v3)
     - [reCAPTCHA Enterprise](#recaptcha-enterprise)
+    - [hCaptcha](#hcaptcha)
     - [FunCaptcha](#funcaptcha)
     - [GeeTest](#geetest)
     - [GeeTest V4](#geetest-v4)
@@ -280,6 +281,21 @@ req := captcha.ToRequest()
 req.SetProxy("HTTPS", "login:password@IP_address:PORT")
 code, err := client.Solve(req)
 ```
+
+### hCaptcha
+
+<sup>[API method description.](https://solvecaptcha.com/captcha-solver-api#solving_hcaptcha)</sup>
+
+Use this method to solve hCaptcha challenges and obtain a token to bypass the protection.
+
+```go
+captcha := apisolvecaptcha.HCaptcha{
+   SiteKey: "10000000-ffff-ffff-ffff-000000000001",
+   Url: "https://accounts.hcaptcha.com/demo",
+}
+req := captcha.ToRequest()
+req.SetProxy("HTTPS", "login:password@IP_address:PORT")
+code, err := client.Solve(req)
 
 ### FunCaptcha
 
